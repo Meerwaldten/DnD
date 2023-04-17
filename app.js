@@ -11,7 +11,7 @@ const counterPage = templateEngine.renderPage(counterPath, {
 });
 
 app.get("/", (req, res) => {
-    res.send({message: "Test manner"});
+    res.send(counterPage);
 });
 
 app.get("/counter", (req, res) => {
