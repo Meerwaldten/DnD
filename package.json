@@ -1,6 +1,7 @@
 {
   "name": "dnd",
   "version": "1.0.0",
+  "homepage": "/DnD",
   "description": "DnD Counter",
   "main": "app.js",
   "type": "module",
